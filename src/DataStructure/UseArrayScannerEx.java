@@ -10,6 +10,7 @@ public class UseArrayScannerEx {
         System.out.println("Please enter 5 numbers");
         for (int j = 0; j < number.length; j++) {
             number[j] = numberex.nextInt();
+            System.out.println(number[j]);
         }
     }
 }

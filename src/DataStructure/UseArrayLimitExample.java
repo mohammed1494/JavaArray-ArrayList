@@ -15,6 +15,7 @@ public class UseArrayLimitExample {
         System.out.println("Please enter your limit numbers");
         for (int j = 0; j < number.length; j++) {
             number[j] = numberex.nextInt();
+            //System.out.println(numberex);
         }
     }
 }
